@@ -4,7 +4,7 @@
 #define DECODER SevenSegmentDecoderOne
 // #define DECODER SevenSegmentDecoderTwo
 
-TEST(SevenSegmentDecoderTest, b) {
+TEST(SevenSegmentDecoderTest, resemblesTruthTable) {
 // 				  -gfedcba	
 	ASSERT_EQ(	0b00111111, DECODER::decode(0));
 	ASSERT_EQ(	0b00000110, DECODER::decode(1));

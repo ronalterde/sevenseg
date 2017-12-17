@@ -1,7 +1,7 @@
-# Sample code for the blog article **
-[Link to blog](http://steffen.ronalter.de/2017/)
+# Sample code for the blog article *Test-driven 7-Segment Decoder*
+[Link to blog](http://steffen.ronalter.de/2017/12/17/test-driven-7-segment-decoder/)
 
-First pull in googletest and googlemock (needs to be done only once):
+First pull in googletest (needs to be done only once):
 ```
 $ git submodule update --init
 ```
